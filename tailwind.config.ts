@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+      },
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        "great-vibes": ["var(--font-great-vibes)"],
+        helvetica: ["var(--font-helvetica)"],
       },
     },
   },
