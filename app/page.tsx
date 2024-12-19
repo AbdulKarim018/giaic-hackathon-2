@@ -211,7 +211,7 @@ function MenuSection() {
       <h4 className="text-center text-3xl font-bold">
         <span className="text-primary">Fr</span>om Our Menu
       </h4>
-      <div className="mt-16 flex items-center justify-center gap-16">
+      <div className="mt-16 flex items-center justify-center gap-16 max-md:flex-wrap max-md:gap-4">
         <p>Breakfast</p>
         <p>Lunch</p>
         <p>Dinner</p>
