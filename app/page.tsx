@@ -227,7 +227,7 @@ function MenuSection() {
           alt="menu"
           width={600}
           height={600}
-          className="w-2/5"
+          className="w-2/5 max-md:w-full"
         />
         <div className="flex w-3/5 gap-6 max-md:w-full">
           <div className="flex flex-col gap-4">
