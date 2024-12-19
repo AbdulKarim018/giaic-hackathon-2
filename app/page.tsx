@@ -26,7 +26,7 @@ export default function Home() {
       <WhyChooseUsSection />
       <Stats />
       <MenuSection />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
@@ -221,7 +221,7 @@ function MenuSection() {
         <p>Soups</p>
       </div>
 
-      <div className="flex gap-10 p-12">
+      <div className="flex gap-10 p-12 max-md:flex-wrap">
         <Image
           src={"/home_menu_1.png"}
           alt="menu"
@@ -229,14 +229,14 @@ function MenuSection() {
           height={600}
           className="w-2/5"
         />
-        <div className="flex w-3/5 gap-6">
+        <div className="flex w-3/5 gap-6 max-md:w-full">
           <div className="flex flex-col gap-4">
             {[1, 2, 3, 4].map((n) => (
               <div key={n} className="flex gap-2">
                 <Image
                   src={"/home_menu_2.png"}
                   alt={n + " image"}
-                  className="rounded-lg object-cover"
+                  className="max-md:w-hidden rounded-lg object-cover"
                   width={40}
                   height={40}
                 />
